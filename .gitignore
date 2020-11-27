@@ -1,44 +1,25 @@
-# OSX
-#
+# osx
 .DS_Store
 
-# Xcode
-#
-build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata
-*.xccheckout
-*.moved-aside
-DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
-project.xcworkspace
-
-# Android/IJ
-#
+# intellij
 .idea
-.gradle
 local.properties
 
 # node.js
-#
 node_modules/
 npm-debug.log
 
-# BUCK
-buck-out/
-\.buckd/
-android/app/libs
-android/keystores/debug.keystore
+# docs
 docs/docs.json
-docs/output.json
+docs/src/input.json
+docs/src/playground.json
+docs/src/examples.json
+docs/src/assets/playground-build/
+docs/src/assets/examples-build/
+
+# showcases
+src/showcases/env/index.js
+src/showcases/web-build/
 
 .expo
+dist
